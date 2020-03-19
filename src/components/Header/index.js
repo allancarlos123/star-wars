@@ -1,13 +1,17 @@
 import React from 'react'
-import logo from '../../logo.svg';
-import './style.css';
+
+import { Container, Content, Logo } from './styles.js';
+
+import logoSrc from '../../logo.svg';
 
 const Header = () => (
-  <header className="header">
-    <a href="/" className="logo">
-      <img src={logo} alt="logo" />
-    </a>
-  </header>
+  <Container>
+    <Content>
+      <a href="/">
+        <Logo src={logoSrc} alt="logo" />
+      </a>
+    </Content>
+  </Container>
 )
 
 export default Header;
