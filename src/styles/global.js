@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import styled, { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
   @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
@@ -29,4 +29,11 @@ export default createGlobalStyle`
   button {
     cursor: pointer;
   }
+`;
+
+export const Wrapper = styled.div`
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: url(https://rocketseat.com.br/static/images/gostack/mountains.svg) center bottom / 100% no-repeat rgb(11, 10, 13);
 `;
