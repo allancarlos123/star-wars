@@ -16,6 +16,7 @@ export default createGlobalStyle`
   }
   body {
     -webkit-font-smoothing: antialiased;
+    background: #000;
   }
   body, input, button {
     font: 14px 'Roboto', sans-serif;
@@ -34,6 +35,5 @@ export default createGlobalStyle`
 export const Wrapper = styled.div`
   position: relative;
   width: 100%;
-  height: 100%;
-  background: url(https://rocketseat.com.br/static/images/gostack/mountains.svg) center bottom / 100% no-repeat rgb(11, 10, 13);
+  // background: url(https://rocketseat.com.br/static/images/gostack/mountains.svg) center bottom / 100% no-repeat rgb(11, 10, 13);
 `;
